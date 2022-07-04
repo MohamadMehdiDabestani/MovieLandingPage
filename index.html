@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <head>
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="./img/Logo.svg" alt="" />
+          </div>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Most Popular</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="responsive-menu-icon"></div>
+          <div class="icons">
+            <img src="./img/icons/search-normal.svg" alt="" class="search" />
+            <img
+              src="./img/icons/notification.svg"
+              alt=""
+              class="notification"
+            />
+            <img src="./img/userLogo.svg" alt="" class="userlogo" />
+          </div>
+        </div>
+      </nav>
+    </head>
+    <div class="container">
+      <div class="hero">
+        <p>Good Evening George</p>
+        <div class="hero-banner">
+          <img src="./img/Hero.svg" alt="" />
+          <div class="hero-banner-text">
+            <div>
+              <p>NEW MOVIE</p>
+              <p>Doctor Strange In The Multiverse Of Madness</p>
+            </div>
+            <div>
+              <button class="heart">
+                <img src="./img/heart.svg" alt="" />
+              </button>
+              <button class="play">PLAY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="mostpopular">
+        <p class="title">Most Popular</p>
+        <div class="grid mostpopular-list">
+          <div class="mostpopular-item">
+            <img src="./img/Rectangle 4.svg" alt="" />
+            <p>Eternals</p>
+            <p>Action, Fantasy</p>
+          </div>
+          <div class="mostpopular-item">
+            <img src="./img/Rectangle 5.svg" alt="" />
+            <p>The Unforgivable</p>
+            <p>Drama, Thriller</p>
+          </div>
+          <div class="mostpopular-item">
+            <img src="./img/Rectangle 6.svg" alt="" />
+            <p>Oxygen</p>
+            <p>Survival Thriller</p>
+          </div>
+          <div class="mostpopular-item">
+            <img src="./img/Rectangle 7.svg" alt="" />
+            <p>The Burning Sea</p>
+            <p>Action, Thriller</p>
+          </div>
+          <div class="mostpopular-item">
+            <img src="./img/Rectangle 8.svg" alt="" />
+            <p>No Time To Die</p>
+            <p>Action, Thriller</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="categories">
+        <p class="title">Categories</p>
+        <div class="grid categories-list">
+          <div class="categories-item">
+            <img src="./img/Ellipse 3.svg" alt="" />
+            <p>Action</p>
+          </div>
+          <div class="categories-item">
+            <img src="./img/Ellipse 4.svg" alt="" />
+            <p>Horror</p>
+          </div>
+          <div class="categories-item">
+            <img src="./img/Ellipse 5.svg" alt="" />
+            <p>Thriller</p>
+          </div>
+          <div class="categories-item">
+            <img src="./img/Ellipse 6.svg" alt="" />
+            <p>Comedy</p>
+          </div>
+          <div class="categories-item">
+            <img src="./img/Ellipse 7.svg" alt="" />
+            <p>Romance</p>
+          </div>
+          <div class="categories-item">
+            <img src="./img/Ellipse 8.svg" alt="" />
+            <p>Adventure</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/Logo.svg" alt="" />
+        </div>
+        <div class="info">
+          <div class="site">
+            <img src="./img/icons/site.svg" alt="" /> streem.com
+          </div>
+          <div class="email">
+            <img src="./img/icons/sms.svg" alt="" /> support@streem.com
+          </div>
+        </div>
+        <div class="back-top">
+          <p>Back To Home</p>
+          <button><img src="./img/icons/back-to-top.svg" alt="" /></button>
+        </div>
+      </div>
+    </footer>
+    <div class="container">
+      <div class="grid contactus">
+        <div class="contactus-img">
+          <img src="./img/contactus.svg" alt="" />
+        </div>
+        <form class="contactus-form">
+          <p>
+            Contact us for Any <br />
+            Questions
+          </p>
+          <div class="contactus-form-inputs">
+            <div class="input-cover">
+              <label for="userName">Your Name*</label>
+              <input
+                placeholder="Enter Your Name here"
+                type="text"
+                class="required"
+                id="userName"
+              />
+            </div>
+            <div class="input-cover">
+              <label for="email">Your Email*</label>
+              <input
+                class="required"
+                placeholder="Enter Your Email here"
+                type="email"
+                id="email"
+              />
+            </div>
+          </div>
+          <div class="input-cover">
+            <label for="message">Your Message*</label>
+            <textarea
+              class="required"
+              placeholder="Enter Your Message here"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="disable">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
