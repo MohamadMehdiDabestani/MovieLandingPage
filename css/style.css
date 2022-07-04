@@ -396,12 +396,13 @@ footer .back-top button {
   .hero .hero-banner .hero_responsive {
     display: block;
     margin-top: 15px;
+    height: 200px;
   }
   .hero .hero-banner .responsive-play {
     display: block;
     text-decoration: none;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     right: 5%;
     font-weight: 500;
     font-size: 14px;
@@ -474,7 +475,13 @@ footer .back-top button {
   }
   .categories .categories-list .categories-item img {
     width: 95px;
-    
+  }
+  .categories .categories-list .categories-item img {
+    width: 95px;
+  }
+  .categories-list .categories-item p {
+    font-weight: 500;
+    font-size: 16px;
   }
   /* end categories responsive mode */
 
