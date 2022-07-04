@@ -472,7 +472,9 @@ footer .back-top button {
   .categories .categories-list {
     flex-wrap: wrap;
   }
-  .categories .categories-list .categories-item {
+  .categories .categories-list .categories-item img {
+    width: 95px;
+    
   }
   /* end categories responsive mode */
 
