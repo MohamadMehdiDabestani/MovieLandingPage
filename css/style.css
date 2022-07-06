@@ -191,8 +191,14 @@ nav .icons {
 
 /* start most popular section */
 
+.mostpopular-list .mostpopular-item {
+  width: 20%;
+}
 .mostpopular-list .mostpopular-item img {
   margin-bottom: 11px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .mostpopular-list .mostpopular-item p:nth-child(2) {
   font-weight: 700;
@@ -321,6 +327,7 @@ footer .back-top button {
 /* end contact us section */
 
 /* start responsive mode */
+
 @media screen and (max-width: 800px) {
   /* start global responsive mode */
   .container {
@@ -546,6 +553,16 @@ footer .back-top button {
   }
   .contactus-form .input-cover {
     margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .categories .categories-list .categories-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .categories-list .categories-item {
+    width: 30%;
   }
 }
 /* end responsive mode */
